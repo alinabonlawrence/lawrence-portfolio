@@ -12,7 +12,7 @@ export default function Footer(){
     }
 
 	return(
-		<footer style={footerStyle}>
+		<footer style={footerStyle} className="sticky-bottom">
             <div className="container">
                 <span className="text-muted">Place sticky footer content here.</span>
             </div>
